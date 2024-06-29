@@ -1,5 +1,5 @@
-altair==5.0.1
-anyio==4.2.0
+altair==5.1.2
+anyio==3.7.1
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 asttokens==2.0.5
@@ -90,7 +90,7 @@ prompt-toolkit==3.0.43
 protobuf==3.20.3
 psutil==5.9.0
 pure-eval==0.2.2
-pyarrow==14.0.2
+pyarrow==13.0.0
 pycparser==2.21
 pydeck==0.8.0
 Pygments==2.15.1
