@@ -97,7 +97,7 @@ PyQt5-sip==12.13.0
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
-pytz==2024.1
+pytz==2023.3
 pywin32==305.1
 pywinpty==2.0.10
 PyYAML==6.0.1
