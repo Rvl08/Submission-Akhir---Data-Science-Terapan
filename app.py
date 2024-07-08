@@ -76,16 +76,16 @@ with tab2:
     col3, col4 = st.columns(2)
 
     with col1:
-        curricular_units_1st_sem_approved = st.number_input('Unit Kurikulum Disetujui Semester 1', min_value=0)
+        curricular_units_1st_sem_approved = st.number_input('Unit Kurikulum Disetujui Semester 1 (0 - 100)', min_value=0)
         
     with col2:
-        curricular_units_1st_sem_grade = st.number_input('Nilai Unit Kurikulum Semester 1', min_value=0.0, max_value=20.0, step=0.01)
+        curricular_units_1st_sem_grade = st.number_input('Nilai Unit Kurikulum Semester 1 (0 - 20)', min_value=0.0, max_value=20.0, step=0.01)
         
     with col3:
-        curricular_units_2nd_sem_approved = st.number_input('Unit Kurikulum Disetujui Semester 2', min_value=0)
+        curricular_units_2nd_sem_approved = st.number_input('Unit Kurikulum Disetujui Semester 2 (0 - 100)', min_value=0)
         
     with col4:
-        curricular_units_2nd_sem_grade = st.number_input('Nilai Unit Kurikulum Semester 2', min_value=0.0, max_value=20.0, step=0.01)
+        curricular_units_2nd_sem_grade = st.number_input('Nilai Unit Kurikulum Semester 2 (0 - 20)', min_value=0.0, max_value=20.0, step=0.01)
 
     # Informasi Keuangan
     st.header('Informasi Keuangan')
